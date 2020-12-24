@@ -2,14 +2,17 @@ var username =prompt("please enter your name");
     alert('Thank you for visting us '+username );
 
     var dish =prompt("please enter your favourite dish ");
-    alert('Thank you for visting us '+dish );
+    alert('You have agreat taste ! ' );
 
-    var age =prompt("please enter your age");
-    alert('Thank you for visting us '+ age );
+    var DishNum =prompt("please enter how many dishes you want to buy");
+    
 
-    if (age < 14){
-    alert('Please make sure to ask your dad  before trying to buy from his credit card!');
-}
-else if (age > 14){
-alert('you can buy what ever you want and enjoy it !');
-}
+    while (DishNum === '' || DishNum === null){
+        prompt('please enter how many dishes you want to buy');
+    }
+
+   var Stars=prompt("How do you rate our resturant from 1-5,5 is the best rate! ");
+
+for(var i=1;i<5;i++)
+{document.write('<img src="stars.jpg"/>')
+} 
