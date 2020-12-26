@@ -13,6 +13,6 @@ var username =prompt("please enter your name");
 
    var Stars=prompt("How do you rate our resturant from 1-5,5 is the best rate! ");
 
-for(var i=1;i<5;i++)
+for(var i=1;i<=Stars;i++)
 {document.write('<img src="stars.jpg"/>')
 } 
