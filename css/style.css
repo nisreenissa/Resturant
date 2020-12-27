@@ -1,0 +1,11 @@
+.styling
+{display:inline-block;border: 3px solid black;padding: 3px; margin:0px ; text-align:center;
+}
+p{color:red;text-align: center;font-family:Arial;}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    height: 100px; 
+}
